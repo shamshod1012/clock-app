@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1440px;
+  height: 800px;
+  background-image: url("./images/Hd\ Wallpapers\ For\ Windows\ 7\ Nature\ wallpaper\ \ \ 1248480.jpg");
+  background-size: cover;
+  position: relative;
+}
+.main-text {
+  width: 540px;
+  height: 84px;
+  color: #d2c2c2;
+  font-size: 20px;
+  line-height: 28px;
+}
+.texts {
+  margin-left: 165px;
+  margin-top: 56px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.row-text {
+  display: flex;
+  align-items: center;
+}
+.icon:hover {
+  color: #fff;
+}
+.texts .row-text .icon {
+  color: #afadad;
+  font-size: 50px;
+  cursor: pointer;
+  margin-left: -20px;
+}
+.thick-text {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  cursor: pointer;
+  width: 165px;
+}
+.thick-text:hover {
+  border-bottom: 1px solid white;
+}
+.times {
+  position: absolute;
+  width: 550px;
+  height: 300px;
+  /* border: 1px solid #fff; */
+  left: 165px;
+  bottom: 100px;
+}
+/* .second { 
+   width: 130px;
+}
+.first {
+  width: 130px;
+} */
+
+.sun-and-text {
+  display: flex;
+  width: 500px;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+}
+.sun-icon {
+  font-size: 38px;
+  /* margin-right: -600px; */
+}
+.big-time {
+  font-size: 200px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 200px;
+}
+.big-times {
+  display: flex;
+  align-items: baseline;
+}
+.utc {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 300;
+  color: #fff;
+}
+.location {
+  font-weight: 700;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.good-morning {
+  width: 440px;
+  font-size: 25px;
+  font-weight: 400;
+}
+.circle-btn {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  display: flex;
+  background-color: #303030;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: px; */
+}
+.btn-text {
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 28px;
+  letter-spacing: 5px;
+  opacity: 0.5;
+  display: flex;
+  margin-left: 10px;
+}
+#more {
+  font-size: 30px;
+  margin-top: 3px;
+}
+.wrapper-btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 140px;
+  height: 55px;
+  background-color: #fff;
+  border-radius: 28px;
+  position: absolute;
+  right: 165px;
+  bottom: 98px;
+}
+@media screen and (max-width: 900px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .wrapper-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+  }
+  .times {
+    left: 100px;
+  }
+  .texts {
+    position: relative;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .wrapper {
+    width: 375;
+    height: 667;
+  }
+  body {
+    min-height: 100vh;
+  }
+  .main-text {
+    font-size: 12px;
+    width: 100%;
+    height: 66px;
+  }
+  .wrapper-btn {
+    left: 26px;
+  }
+  .texts {
+    margin-top: 20px;
+    margin-left: 26px;
+    font-size: 2px;
+    width: 290px;
+    line-height: 20px;
+    height: 66px;
+  }
+  #iconcha {
+    margin-left: 10px;
+    font-size: 27px;
+  }
+  .times {
+    top: 400px;
+    left: 26px;
+    width: 240px;
+    height: 100px;
+  }
+  .big-time {
+    font-size: 100px;
+    letter-spacing: -3px;
+  }
+  .second {
+    display: none;
+  }
+  .sun-icon {
+    margin-right: 0px;
+  }
+  .first {
+    margin-left: -400px;
+    /* margin-bottom: -20px; */
+  }
+  .sun-and-text {
+    margin-bottom: -30px;
+  }
+  .utc {
+    font-size: 15px;
+  }
+  .location {
+    margin-top: 0;
+  }
+  .thick-text {
+    font-size: 12px;
+    margin-top: 50px;
+  }
+  .wrapper-btn {
+    bottom: 100px;
+  }
+  .location {
+    font-size: 15px;
+    margin-top: -40px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .wrapper {
+    width: 768;
+    height: 1024;
+  }
+}
